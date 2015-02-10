@@ -48,9 +48,11 @@ class local_unusedquestions_question_bank_search_condition extends core_question
 
     public function display_options_adv() {
         echo "<br />\n";
-        $options = array(self::ONLYUNUSED => 'Only unused questions', self::ONLYUSED => 'Only used questions');
+        $options = array(self::ONLYUNUSED => get_string('onlyunused', 'local_unusedquestions'),
+                self::ONLYUSED => get_string('onlyused', 'local_unusedquestions'));
         $attr = array ('class' => 'searchoptions');
-        echo html_writer::select($options, 'onlyused', $this->onlyused, array(self::ONLYANY => 'Used & unused questions'), $attr);
+        echo html_writer::select($options, 'onlyused', $this->onlyused,
+                array(self::ONLYANY => get_string('usedandunused', 'local_unusedquestions')), $attr);
     }
 
     private function init() {

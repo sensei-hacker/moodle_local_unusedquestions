@@ -15,4 +15,6 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 $string['pluginname'] = 'Question bank unused questions';
-
+$string['onlyused'] = 'Only used';
+$string['onlyunused'] = 'Only unused';
+$string['usedandunused'] = 'Both used &amp; unused';
