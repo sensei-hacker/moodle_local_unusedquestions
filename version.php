@@ -16,5 +16,5 @@
 $plugin->version   = 2015020901;
 $plugin->release   = '1.0';
 $plugin->maturity  = MATURITY_ALPHA;
-$plugin->requires  = 20140512;
+$plugin->requires  = 2014051200;
 $plugin->component = 'local_unusedquestions';
