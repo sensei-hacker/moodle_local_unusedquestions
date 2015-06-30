@@ -1,5 +1,4 @@
 Used/ Unused Question search module for Moodle (http://moodle.org/) - Copyright (C) 2015 Ray Morris
-
 Extends the Moodle question bank to find questions which are / are not used in a quiz.
 
 This may be useful when adding questions to a quiz - no need to add questions which are already in the quiz.
